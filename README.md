@@ -52,8 +52,8 @@ wsl --install
 
 # 2. Go to Linux home & clone
 cd ~
-git clone <YOUR_GITHUB_REPO_URL>
-cd <YOUR_REPO_NAME>
+git clone https://github.com/scorpionawaz/Sarcasm_Fine_Tuned
+cd Sarcasm_Fine_Tuned
 
 # 3. Virtual environment
 python3 -m venv wsl_env
@@ -153,21 +153,9 @@ Select mode [1/2/3/q]: 3
 
 ## 🧠 How It Works
 
-```
-Raw Input (text / audio / mic)
-         ↓
-[r/subreddit  score:N]  parent_comment </s></s> comment
-         ↓
-  RobertaTokenizerFast  →  token IDs + attention mask
-         ↓
-  RoBERTa-base (125M params)  →  contextual embeddings
-         ↓
-  [CLS] token  (768-dim sentence representation)
-         ↓
-  Dropout → Linear(768→256) → GELU → Dropout → Linear(256→2)
-         ↓
-  Softmax → P(Normal)  vs  P(Sarcastic)
-```
+
+![Wprk-Flow](daigram_workflow.png)
+
 
 ---
 
