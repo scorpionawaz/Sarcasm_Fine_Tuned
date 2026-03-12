@@ -11,6 +11,12 @@
 
 ---
 
+## 📄 Full Technical Report
+
+Detailed write-up covering architecture decisions, training analysis, confusion matrix interpretation, and the full improvement roadmap:
+
+👉 [`Project Report.pdf`](Sarcasm_Detection_Report.pdf)
+---
 ## 📁 Project Structure
 
 ```
@@ -178,8 +184,3 @@ The model currently detects **surface word patterns** ("oh great", "wow thanks")
 
 ---
 
-## 📄 Full Technical Report
-
-Detailed write-up covering architecture decisions, training analysis, confusion matrix interpretation, and the full improvement roadmap:
-
-👉 [`Sarcasm_Detection_Report.docx`](Sarcasm_Detection_Report.pdf)
