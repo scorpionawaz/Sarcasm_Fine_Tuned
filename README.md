@@ -182,4 +182,4 @@ The model currently detects **surface word patterns** ("oh great", "wow thanks")
 
 Detailed write-up covering architecture decisions, training analysis, confusion matrix interpretation, and the full improvement roadmap:
 
-👉 [`Sarcasm_Detection_Report.docx`](Sarcasm_Detection_Report.docx)
+👉 [`Sarcasm_Detection_Report.docx`](Sarcasm_Detection_Report.pdf)
